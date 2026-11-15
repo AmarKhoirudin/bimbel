@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0D9488"/><stop offset="1" stop-color="#0EA5E9"/></linearGradient></defs>
+  <rect width="800" height="560" rx="28" fill="url(#g)"/>
+  <circle cx="700" cy="470" r="190" fill="#FACC15" opacity=".12"/>
+  <circle cx="90" cy="80" r="150" fill="#fff" opacity=".08"/>
+  <g transform="translate(210 140)">
+    <circle cx="190" cy="130" r="105" fill="#fff" opacity=".95"/>
+    <ellipse cx="190" cy="130" rx="48" ry="105" fill="none" stroke="#0EA5E9" stroke-width="8"/>
+    <ellipse cx="190" cy="130" rx="105" ry="42" fill="none" stroke="#0EA5E9" stroke-width="8"/>
+    <line x1="85" y1="130" x2="295" y2="130" stroke="#0EA5E9" stroke-width="8"/>
+    <circle cx="190" cy="130" r="12" fill="#FACC15"/>
+    <rect x="60" y="270" width="260" height="42" rx="21" fill="#fff" opacity=".22"/>
+    <text x="110" y="299" font-family="Arial" font-size="22" font-weight="bold" fill="#fff">Speak • Learn • Grow</text>
+  </g>
+</svg>
