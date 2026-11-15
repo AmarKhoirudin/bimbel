@@ -1935,5 +1935,9 @@
   });
 
   window.addEventListener('hashchange', renderCurrentRoute);
-  window.addEventListener('DOMContentLoaded', renderCurrentRoute);
+  if (document.readyState === 'loading') {
+    window.addEventListener('DOMContentLoaded', renderCurrentRoute);
+  } else {
+    renderCurrentRoute();
+  }
 })(window);
