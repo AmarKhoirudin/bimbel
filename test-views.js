@@ -11,6 +11,10 @@ const mockLocalStorage = {
 
 const context = {
   window: {},
+  document: {
+    body: { className: '', classList: { add: () => {}, remove: () => {} }, style: {} },
+    title: ''
+  },
   console: console,
   localStorage: mockLocalStorage,
   setTimeout: setTimeout,
