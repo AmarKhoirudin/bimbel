@@ -1,0 +1,88 @@
+/* Tema Admin: Navy & Slate */
+:root {
+  --brand: #2563eb;
+  --brand-dark: #1d4ed8;
+  --admin-sidebar-1: #1e293b;
+  --admin-sidebar-2: #0f172a;
+}
+.admin-body { background: #f1f5f9; }
+.admin-body .app-sidebar { background: linear-gradient(180deg, var(--admin-sidebar-1), var(--admin-sidebar-2)); }
+.admin-body .sidebar-nav a.active { box-shadow: inset 3px 0 0 #2563eb; background: rgba(37, 99, 235, .2); }
+.admin-body .btn-brand { background: linear-gradient(135deg, #2563eb, #1d4ed8); }
+.admin-body .stat-card .icon-blue { background: #eff6ff; color: #2563eb; }
+.admin-body .stat-card .icon-yellow { background: #fffbeb; color: #d97706; }
+.admin-body .stat-card .icon-purple { background: #f5f3ff; color: #7c3aed; }
+.admin-body .stat-card .icon-green { background: #ecfdf5; color: #059669; }
+.admin-body .page-heading h1 { color: #0f172a; }
+.admin-body .card-soft { border-color: #e2e8f0; }
+.admin-body .settings-tabs { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .75rem; padding: .35rem; }
+.admin-body .settings-tabs .nav-item { min-width: 0; }
+.admin-body .settings-tabs .nav-link { display: flex; align-items: center; gap: .7rem; width: 100%; min-height: 66px; padding: .7rem .85rem; border: 1px solid #e2e8f0; border-radius: 14px; background: #fff; color: #475569; font-size: .9rem; font-weight: 650; text-align: left; box-shadow: 0 2px 6px rgba(15, 23, 42, .025); transition: border-color .18s ease, background .18s ease, color .18s ease, box-shadow .18s ease, transform .18s ease; }
+.admin-body .settings-tabs .nav-link:hover { transform: translateY(-1px); border-color: #bfdbfe; background: #f8fbff; color: #1d4ed8; }
+.admin-body .settings-tabs .nav-link.active { border-color: #2563eb; background: linear-gradient(135deg, #2563eb, #1d4ed8); color: #fff; box-shadow: 0 7px 16px rgba(37, 99, 235, .2); }
+.admin-body .settings-tab-icon { display: grid; place-items: center; flex: 0 0 38px; width: 38px; height: 38px; border-radius: 11px; background: #eff6ff; color: #2563eb; font-size: .95rem; }
+.admin-body .settings-tabs .nav-link.active .settings-tab-icon { background: rgba(255,255,255,.18); color: #fff; }
+.admin-body .settings-tab-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.admin-body .settings-tab-arrow { margin-left: auto; color: #94a3b8; font-size: .7rem; opacity: 0; transform: translateX(-3px); transition: opacity .18s ease, transform .18s ease; }
+.admin-body .settings-tabs .nav-link:hover .settings-tab-arrow,
+.admin-body .settings-tabs .nav-link.active .settings-tab-arrow { opacity: 1; transform: translateX(0); }
+.admin-body .settings-tabs .nav-link.active .settings-tab-arrow { color: rgba(255,255,255,.78); }
+.admin-body .settings-tabs .nav-link:focus-visible { outline: 3px solid rgba(37, 99, 235, .25); outline-offset: 2px; }
+.admin-body .dataTables_wrapper .dataTables_info { font-size: .8rem; color: #64748b; }
+.admin-body .table-actions { white-space: nowrap; }
+.admin-body .table-actions .btn { width: 32px; height: 32px; padding: 0; display: inline-grid; place-items: center; border-radius: 9px; }
+.admin-body .sidebar-profile { background: rgba(255,255,255,.06); }
+.admin-body .topbar-badge { background: #eff6ff; color: #1d4ed8; }
+.admin-body .quick-action { display: flex; align-items: center; gap: .75rem; padding: .85rem; border-radius: 12px; background: #f8fafc; border: 1px solid #eef2f7; color: #334155; transition: .2s; }
+.admin-body .quick-action:hover { background: #eff6ff; border-color: #bfdbfe; color: #1d4ed8; }
+.admin-body .quick-action .ic { width: 38px; height: 38px; border-radius: 10px; display: grid; place-items: center; background: #fff; color: #2563eb; }
+.admin-body .chart-card { min-height: 330px; }
+.admin-body .payment-methods-panel { padding: clamp(1rem, 2.5vw, 1.75rem); }
+.admin-body .payment-methods-heading { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-bottom: 1.25rem; border-bottom: 1px solid #e8edf5; }
+.admin-body .payment-methods-heading h2 { color: #0f172a; font-weight: 750; }
+.admin-body .payment-heading-icon,
+.admin-body .payment-row-icon,
+.admin-body .payment-empty-icon { display: grid; place-items: center; flex: 0 0 auto; border-radius: 14px; background: #eff6ff; color: #2563eb; }
+.admin-body .payment-heading-icon { width: 48px; height: 48px; font-size: 1.15rem; }
+.admin-body .payment-info-note { display: flex; align-items: flex-start; gap: .65rem; margin: 1.25rem 0; padding: .9rem 1rem; border: 1px solid #dbeafe; border-radius: 12px; background: #f5f9ff; color: #475569; font-size: .84rem; }
+.admin-body .payment-info-note i { margin-top: .15rem; color: #2563eb; }
+.admin-body .payment-methods-list { display: grid; gap: 1rem; }
+.admin-body .payment-method-row { padding: 1.25rem; border: 1px solid #e2e8f0; border-radius: 14px; background: #fff; box-shadow: 0 2px 8px rgba(15, 23, 42, .025); }
+.admin-body .payment-method-row-heading { display: flex; align-items: center; justify-content: space-between; gap: .75rem; margin-bottom: 1.15rem; padding-bottom: .85rem; border-bottom: 1px solid #f1f5f9; color: #1e293b; }
+.admin-body .payment-row-icon { width: 34px; height: 34px; border-radius: 10px; font-size: .85rem; }
+.admin-body .payment-method-row .form-label { margin-bottom: .4rem; color: #334155; font-size: .8rem; font-weight: 650; }
+.admin-body .payment-method-row .form-control,
+.admin-body .payment-method-row .form-select { min-height: 42px; border-color: #dbe2ea; border-radius: 9px; font-size: .875rem; }
+.admin-body .payment-method-row .form-control:focus,
+.admin-body .payment-method-row .form-select:focus { border-color: #93c5fd; box-shadow: 0 0 0 .2rem rgba(37, 99, 235, .1); }
+.admin-body .payment-method-row input[type="file"] { padding: .42rem .65rem; }
+.admin-body .payment-qr-current { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem; margin-top: .55rem; font-size: .76rem; }
+.admin-body .payment-qr-current i { color: #059669; }
+.admin-body .payment-qr-current span { color: #64748b; }
+.admin-body .payment-methods-empty { display: flex; flex-direction: column; align-items: center; gap: .45rem; padding: 2rem 1rem; border: 1px dashed #cbd5e1; border-radius: 14px; background: #f8fafc; color: #64748b; text-align: center; }
+.admin-body .payment-methods-empty strong { color: #334155; font-size: .95rem; }
+.admin-body .payment-methods-empty > span:last-of-type { max-width: 430px; font-size: .82rem; }
+.admin-body .payment-empty-icon { width: 48px; height: 48px; margin-bottom: .3rem; border-radius: 50%; font-size: 1.1rem; }
+.admin-body .payment-methods-footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem; margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid #e8edf5; }
+.admin-body .slider-preview-frame,
+.admin-body .slider-upload-preview { display: grid; place-items: center; overflow: hidden; border: 1px solid #e2e8f0; border-radius: 12px; background: #f8fafc; }
+.admin-body .slider-preview-frame { aspect-ratio: 12 / 5; }
+.admin-body .slider-upload-preview { aspect-ratio: 12 / 5; max-height: 380px; color: #64748b; }
+.admin-body .slider-preview-frame img,
+.admin-body .slider-upload-preview img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.admin-body .slider-upload-preview img[hidden] { display: none; }
+@media (max-width: 575.98px) {
+  .admin-body .settings-tabs { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .55rem; padding: 0; }
+  .admin-body .settings-tabs .nav-link { min-height: 58px; gap: .55rem; padding: .55rem .65rem; border-radius: 12px; font-size: .82rem; }
+  .admin-body .settings-tab-icon { flex-basis: 34px; width: 34px; height: 34px; border-radius: 10px; font-size: .85rem; }
+  .admin-body .settings-tab-arrow { display: none; }
+  .admin-body .payment-methods-heading { align-items: flex-start; flex-direction: column; }
+  .admin-body .payment-methods-heading > .btn { width: 100%; }
+  .admin-body .payment-method-row { padding: 1rem; }
+  .admin-body .payment-method-row-heading { align-items: flex-start; }
+  .admin-body .payment-methods-footer { align-items: stretch; flex-direction: column; }
+  .admin-body .payment-methods-footer .btn { width: 100%; }
+}
+@media (min-width: 576px) and (max-width: 900px) {
+  .admin-body .settings-tabs { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .6rem; padding: 0; }
+}

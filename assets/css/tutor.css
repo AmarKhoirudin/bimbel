@@ -1,0 +1,26 @@
+/* Tema Tutor: Teal */
+:root {
+  --brand: #0d9488;
+  --brand-dark: #0f766e;
+  --brand-light: #f0fdfa;
+}
+.tutor-body { background: #f0fdfa; }
+.tutor-body .app-sidebar { background: linear-gradient(180deg, #134e4a, #0f766e); }
+.tutor-body .sidebar-nav a.active { box-shadow: inset 3px 0 0 #facc15; background: rgba(255, 255, 255, .14); }
+.tutor-body .btn-brand { background: linear-gradient(135deg, #0d9488, #0f766e); box-shadow: 0 8px 18px rgba(13, 148, 136, .24); }
+.tutor-body .btn-primary { --bs-btn-bg: #0d9488; --bs-btn-border-color: #0d9488; --bs-btn-hover-bg: #0f766e; --bs-btn-hover-border-color: #0f766e; }
+.tutor-body .text-brand { color: #0d9488 !important; }
+.tutor-body .bg-brand-soft { background: #ccfbf1; }
+.tutor-body .app-topbar { border-bottom-color: #ccfbf1; }
+.tutor-body .page-heading h1 { color: #134e4a; }
+.tutor-body .stat-card .icon-blue { background: #ccfbf1; color: #0d9488; }
+.tutor-body .stat-card .icon-yellow { background: #fef9c3; color: #ca8a04; }
+.tutor-body .stat-card .icon-purple { background: #f5f3ff; color: #7c3aed; }
+.tutor-body .stat-card .icon-green { background: #dcfce7; color: #16a34a; }
+.tutor-body .card-soft { border-color: #ccfbf1; }
+.tutor-body .table thead th { color: #0f766e; }
+.tutor-body .nav-tabs .nav-link.active { color: #0d9488; border-bottom-color: #0d9488; }
+.tutor-body .chip-brand { background: #ccfbf1; color: #0f766e; }
+.tutor-body .schedule-card { border-left: 4px solid #0d9488; background: #fff; border-radius: 12px; padding: 1rem; }
+.tutor-body .honor-highlight { background: linear-gradient(135deg, #0f766e, #134e4a); color: #fff; border-radius: 18px; padding: 1.5rem; position: relative; overflow: hidden; }
+.tutor-body .honor-highlight::after { content: ""; position: absolute; width: 180px; height: 180px; border-radius: 50%; background: rgba(250,204,21,.15); right: -40px; top: -60px; }
