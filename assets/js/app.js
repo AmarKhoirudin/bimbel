@@ -317,6 +317,17 @@
       });
     }
 
+    // Initialize Bootstrap Carousels
+    if (window.bootstrap && window.bootstrap.Carousel) {
+      document.querySelectorAll('.carousel').forEach(c => {
+        try {
+          bootstrap.Carousel.getOrCreateInstance(c, { interval: 5000, ride: 'carousel' });
+        } catch (e) {
+          /* ignore */
+        }
+      });
+    }
+
     // Initialize Admin Revenue Chart
     const chartCanvas = document.getElementById('adminRevenueChart');
     if (chartCanvas && window.Chart) {

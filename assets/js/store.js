@@ -951,7 +951,17 @@
         function roundedRect(x, y, width, height, radius, color) {
           context.fillStyle = color;
           context.beginPath();
-          context.roundRect(x, y, width, height, radius);
+          if (typeof context.roundRect === 'function') {
+            context.roundRect(x, y, width, height, radius);
+          } else {
+            const r = typeof radius === 'number' ? radius : (Array.isArray(radius) ? radius[0] : 8);
+            context.moveTo(x + r, y);
+            context.arcTo(x + width, y, x + width, y + height, r);
+            context.arcTo(x + width, y + height, x, y + height, r);
+            context.arcTo(x, y + height, x, y, r);
+            context.arcTo(x, y, x + width, y, r);
+            context.closePath();
+          }
           context.fill();
         }
 
