@@ -4,5 +4,18 @@
   "createdAt": "2026-11-15T02:27:49.126Z",
   "filename": "918670ae-9dfd-428b-931b-21b1b6134dfb.json",
   "geminiStarted": false,
-  "messages": []
+  "messages": [
+    {
+      "id": "a3cbc273-9e9f-4d62-81e4-a4f99a899b5e",
+      "role": "user",
+      "content": "Aku mau buat web yang mirip dengan ini\n\nhttps://bimbel-indonesia.kitausaha.my.id/\n\n#### Siswa\n\n- Melihat katalog program dan paket belajar, lalu memilih paket dan membuat invoice.\n- Melihat petunjuk pembayaran manual, tujuan transfer, dan status verifikasi pembayaran; mengunggah bukti transfer.\n- Mengunduh invoice PNG untuk pembayaran yang sudah lunas.\n- Melihat ringkasan dashboard, notifikasi, kelas yang diikuti, jadwal pertemuan, dan tutor.\n- Mengakses materi kelas serta melihat riwayat nilai try out, kehadiran, dan transaksi pembayaran.\n- Mengelola data profil dan password.\n\n#### Tutor\n\n- Melihat ringkasan dashboard, jadwal mengajar, kelas, dan siswa yang diampu.\n- Membuat dan mengatur jadwal pertemuan, tautan kelas online, serta status pertemuan.\n- Mencatat kehadiran siswa pada pertemuan.\n- Mengunggah dan mengelola materi belajar berupa file, tautan, atau video.\n- Membuat serta mengelola soal pilihan ganda untuk latihan dan try out.\n- Membuat try out dan memasukkan nilai siswa.\n- Melihat rekap honor berdasarkan pertemuan yang sudah selesai.\n- Melihat daftar siswa, menerapkan filter, dan menghubungi siswa melalui WhatsApp.\n- Mengelola profil, keahlian, dan password.\n\n#### Admin\n\n- Melihat ringkasan aktivitas pada dashboard dan mengelola akun pengguna.\n- Mengelola program dan paket belajar, termasuk harga dan informasi paket.\n- Membuat dan mengelola kelas, tutor pengampu, kapasitas kelas, dan jadwal pertemuan.\n- Memantau materi serta bank soal yang diunggah tutor.\n- Memeriksa invoice dan bukti pembayaran siswa, lalu memverifikasi atau menolak pembayaran.\n- Mengelola banner halaman depan dengan mengunggah gambar desain sendiri, mengatur urutan, dan status tampil.\n- Mengelola artikel blog, testimoni, dan kupon diskon.\n- Melihat laporan pendapatan, pendaftaran/enrollment, dan performa tutor.\n- Menyiapkan pesan WhatsApp dan memilih penerima untuk dikirim secara manual.\n- Mengatur identitas dan kontak website, metode pembayaran manual (rekening, e-wallet, atau QR), serta preferensi sistem.\n\n#### Fitur Halaman Publik\n\n- Menampilkan program, paket belajar, tutor, testimoni, artikel blog, dan FAQ.\n- Menampilkan banner promosi dari gambar yang diunggah admin.",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-15T02:36:05.450Z",
+      "sender": "ios",
+      "is_cancelled": false
+    }
+  ]
 }
